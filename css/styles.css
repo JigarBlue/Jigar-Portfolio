@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+:root {
+    /* custom properties */
+    --primary-color: #047aed;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+ul {
+    list-style-type: none; /*remove bullet points*/
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    /* font-size: 1.6em; */
+}
+
+img {
+    width: 100%;
+}
+
+/* .headimg {
+    width: 50%;
+} */
+
+/* .logo {
+    font-family: "Indie Flower";
+    font-size: 50px;
+    font-weight: normal;
+} */
+
+/* Navbar */
+
+.logo {
+    font-size: 30px;
+    
+}
+
+.navbar {
+    background-color: var(--primary-color);
+    color: #fff;
+    height: 70px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    color: #fff; 
+    padding: 10px;
+    margin: 0 5px; 
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    border-bottom: 2px #fff solid;
+}
+
+.navbar .flex {
+    justify-content: space-between;
+}
+
+
+
+
+
+/* Showcase */
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.showcase .grid {
+    overflow: visible;
+    grid-template-columns: 55% 45%;
+    gap: 30px;
+}
+
+.showcase-text {
+    /*.animation */
+    animation: slideInFromLeft 1s ease-in;
+}
+
+.showcase-image {
+    position: relative;
+    top: 60px;
+    height: 350px;
+    width: 400px;
+    padding: 40px;
+    z-index: 100;
+    animation: slideInFromRight 1s ease-in;
+}
+
+.showcase-image .card {
+    margin: 30px 0;
+}
+
+
+/* Slant design */
+.showcase::before, .showcase::after {
+    content: '';
+    position: absolute;
+    height: 100px;
+    bottom: -70px;
+    right: 0;
+    left: 0;
+    background: #fff;
+    transform: skewY(-3deg);
+    /*prefixes for browsers*/
+    --webkit-transform: skewY(-3deg); /*chrome and safari*/
+    --moz-transform: skewY(-3deg); /*Moz browser*/
+    -ms-transform: skewY(-3deg); /*microsoft edge*/
+}
+
+/*proje preview section*/
+.corelang {
+    padding-top: 100px;
+    animation: slideInFromBottom 1s ease-in;
+}
+
+.corelang-heading {
+    max-width: 500px;
+    margin: auto;
+}
+
+.corelang .grid h3 {
+    font-size: 25px;
+}
+
+.corelang .grid p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Project Preview */
+
+.proj .grid {
+    grid-template-columns: 4fr 3fr;
+}
+
+
+
+/*Other Languages*/
+
+.sql {
+    height: 80px;
+}
+
+.olang .flex {
+    flex-wrap: wrap;
+}
+
+.olang .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+/*inside card text*/
+.olang .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.olang .card:hover {
+    transform: translateY(-15px);
+}
+
+/* Footer: social a */
+.footer .social a {
+    margin: 0 10px;
+}
+
+.py-5 {
+    padding: 4rem 0;
+}
+
+.bg-dark a {
+    color: #fff;
+}
+
+/* Animation for monitor displays*/
+/*Showcase Text*/
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Showcase - image card*/
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Animation for ipads/tablets/mobile*/
+/*Showcase Text*/
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/*Showcase card image*/
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+
+
+
+
+
+/*****************************************************************************************/
+/* Tablets and under */
+
+
+    /* Tablets and under */
+    /* Anything under 768px  will be styled in ipad/tablet media query*/
+
+@media(max-width: 768px) {
+        
+    /*Logo & top Links*/
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .navbar a {
+        padding: 6px;
+        margin: 0 4px; 
+        font-size: 18px;
+    }
+
+    .navbar ul {
+        padding: 10px;
+    }
+
+    /* Showcase */
+
+    .showcase {
+        height: auto;
+    }
+
+    .grid, 
+    .showcase .grid,
+    .proj .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .showcase-image {
+        justify-self: center;
+        animation: slideInFromBottom 1s ease-in;
+    }
+
+    .showcase h1 {
+        font-size: 35px;
+    }
+
+    .showcase-text {
+        text-align: center;
+        margin-top: 40px;
+        animation: slideInFromTop 1s ease-in;
+    }
+
+    .proj .lg {
+        font-size: 2rem;
+    }
+
+
+    /*Footer*/
+
+    footer h1 {
+        font-size: 20px;
+    }
+
+    .social
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+
+
+
+
+}
+
+/* Mobile and under */
+/* Anything under 500px  will be styled in mobile media query*/
+
+/*max-width: less than or equal to the set width
+if the screen is less than or equal to 500px*/
+@media(max-width: 500px) {
+
+    /*Logo & Links*/
+
+    .logo {
+        font-size: 30px;
+    }
+
+    .navbar .flex {
+        flex-direction: column;
+    }
+
+    .navbar {
+        height: 130px;
+    }
+
+    .navbar a {
+        font-size: 23px;
+        border-bottom: 1.5px dotted #fff;
+    }
+
+    .navbar ul {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+
+    /*Showcase*/
+
+    /*Footer*/
+
+    .social
+    {
+        gap: 10px;
+    }
+
+}
+
+
+
+
+
+
+    
+    /*Rough*/
+    /*core lang*/
+    
+    /* .corelang .grid h3 {
+        font-size: 20px;
+    } */
+
+    /*project*/
+
+    /* .proj h2 {
+        font-size: 2.5rem;
+    } */
+
+    /* .proj .grid {
+        grid-template-columns: 5fr 4fr;
+    } */
+
+    /* .proj p {
+        font-size: 17px;
+    } */
+
+
+
+
+
+ 
+

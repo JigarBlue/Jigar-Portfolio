@@ -1,0 +1,127 @@
+/*************************************/
+/* Projects.html */
+/*************************************/
+
+.projects-head img {
+    width: 200px;
+    justify-self: flex-end;
+}
+
+.projects-head .container,
+.projects-sub-head .container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.projects-sub-head img {
+    width: 300px;
+    justify-self: flex-end;
+}
+
+/* front end websites (ecard) */
+.ecard {
+    display: flex;
+    max-width: 400px;
+    position: relative;
+    padding: 0px;
+}
+
+.ecard img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.ecard .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+}
+
+.ecard .btn:hover {
+    background-color: #2c2727d0;
+
+}
+
+/*ecard flex wrap*/
+.fend .flex {
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    padding-bottom: 40px;
+}
+
+
+/*Other proj*/
+
+/* .sql {
+    height: 80px;
+} */
+
+.otherproj .flex {
+    flex-wrap: wrap;
+}
+
+.otherproj .card {
+    text-align: center;
+    margin: 18px 10px 40px;
+    transition: transform 0.2s ease-in;
+}
+
+/*inside card text*/
+.otherproj .card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.otherproj .card:hover {
+    transform: translateY(-15px);
+}
+
+.otherproj .card {
+    /* width: 300px; */
+    width: 480px;
+    /* background-color: var(--dark-color);
+    color: #fff; */
+}
+
+
+
+/*****************************************************************************************/
+/* Tablets and under */
+
+
+    
+/* Anything under 768px  will be styled in ipad/tablet media query*/
+
+@media(max-width: 600px) {
+
+    .projects-head .container,
+    .projects-sub-head .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .projects-head img,
+    .projects-sub-head img {
+        justify-self: center;
+    }
+}
+
+
+/* Mobile and under */
+/* Anything under 500px  will be styled in mobile media query*/
+
+/*max-width: less than or equal to the set width
+if the screen is less than or equal to 500px*/
+@media(max-width: 500px) {
+
+    .projects-head .container,
+    .projects-sub-head .container {
+        text-align: center;
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+
+}

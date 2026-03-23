@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!--Nav Bar -->
+    <div class="navbar">
+        <!-- Logo -->
+        <div class="container flex">
+            <h1 class="logo">About Me.</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Head -->
+    <div class="contacts-head bg-primary py-3">
+        <div class="container grid">
+            <div>
+                <h1 class="xl">Contact</h1>
+                <p class="lead">
+                    Reach out and let's create something amazing together
+                </p>
+            </div>
+            <!-- <i class="fa-solid fa-book fa-8x"></i> -->
+                <img src="images/contact.png" alt="">
+        </div>
+    </div>
+    <!-- Contact Form -->
+    <section class="contacts-main my-4">
+        <div class="container flex">
+            <div class="showcase-form card">
+                <h2>Contact Form</h2>
+                <!--form post to Netlify & Spam protection using netlify honey pot: BOT-->
+                <div class="error"></div>
+                <form action="https://api.web3forms.com/submit" name="contact" method="POST">
+                    <!--Hidden input or field-->
+                    <input type="hidden" name="access_key" value="Your_Access_Key_Here">
+                    <!--Spam Protection using honey pot method, where we create an input,
+                    that we can hide and you dont fill it out if youre human, 
+                    a bot will fill it out.
+                    This hiden class will show up, we need to hide it using css-->
+                    <p class="hidden">
+                        <label>Don't fill this out if you're human: <input name="bot-field"></label>
+                    </p>
+                    <div class="form-control">
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="company" placeholder="Company Name">
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <textarea class="msg" type="text" name="message" placeholder="Message"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+  
+     <!-- Footer -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Jigar Portfolio</h1>
+                <p>Copyright &copy; 2025</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Me</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- social icons -->
+            <div class="social">
+                <a href="https://github.com/JigarBlue"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.linkedin.com/in/jigar-patel-903337389/"><i class="fa-brands fa-square-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script defer src="js/script.js"></script>
+</html>

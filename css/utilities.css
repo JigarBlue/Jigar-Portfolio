@@ -1,0 +1,135 @@
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px; /* 0 for top bottom, 40 for left right */
+}
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    /* font-family: "Caveat", sans-serif; */
+}
+
+.topimg {
+    font-family: "Caveat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*Base button : for all buttons*/
+.btn {
+    display: inline-block;
+    /* padding: 6px 15px; */
+    padding: 10px 30px;
+    cursor: pointer;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 1px #fff solid;
+    /* font-size: 27px; */
+    
+}
+
+.btn:hover {
+    transform: scale(0.98);
+}
+
+/* Proj preview: background and coloured buttons */
+.bg-primary, .btn-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-dark, .btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light {
+    background-color: var(--light-color);
+    color: #333;
+}
+
+/*3 icons*/
+.text-center {
+    text-align: center;
+}
+
+/* 3 main nav links */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* 3 fontawesome icons: make it in  same line in 3 columns*/
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* project paragraphs: Text Sizes */
+.lead {
+    font-size: 20px;
+}
+
+/*medium size*/
+.md {
+    font-size: 2rem;
+}
+
+/*large size*/
+.lg {
+    font-size: 3rem;
+}
+
+/* extra large size */
+.xl {
+    font-size: 4rem;
+}
+
+/* Margin for our h3 and icons
+my for margin and y for vertical*/
+.my-1 {
+    margin: 1rem 0;
+}
+
+.my-2 {
+    margin: 1.5rem 0;
+}
+
+.my-4 {
+    margin: 3rem 0;
+}
+
+/* Margin for Padding*/
+.py-2 {
+    padding: 1.5rem 0;
+}
+
+/*projects.html page*/
+.py-3 {
+    padding: 2rem 0;
+}
+

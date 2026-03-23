@@ -1,0 +1,141 @@
+
+
+.contacts-head img {
+    width: 150px;
+    justify-self: flex-end;
+}
+
+.contacts-head .container,
+.contacts-sub-head .container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.contacts-sub-head img {
+    width: 300px;
+    justify-self: flex-end;
+}
+
+.contacts-main .grid {
+    grid-template-columns: 1fr;
+    align-items: flex-start;
+}
+
+/**/
+
+/* Showcase */
+.showcase {
+    height: 400px;
+    background-color: var(--primary-color);
+    color: #fff;
+    position: relative;
+}
+
+.showcase h1 {
+    font-size: 40px;
+}
+
+.showcase p {
+    margin: 20px 0;
+}
+
+.showcase .grid {
+    overflow: visible; /*removes the scroller bar from grid*/
+    grid-template-columns: 55% 45%; /*55% for text part and 45% for form part*/
+    gap: 30px;
+}
+
+.showcase-form{
+    /*if you want to do left, top, right, bottom,
+    then use position relative or absolute*/
+    position: relative;
+    top: 2px;
+    height: auto;
+    width: 500px;
+    padding: 63px;
+    z-index: 100; /*to ensure its always in front*/
+    overflow-y: auto;
+}
+
+/*styling for inside the form*/
+.showcase-form .form-control {
+    margin: 30px 0; /*30 top bottom, 0 left*/
+}
+
+/*input fields*/
+.showcase-form input[type='text'],
+.showcase-form input[type='email'],
+.showcase-form textarea[type='text'] {
+    border: 0;
+    border-bottom: 1px solid #b4becb;
+    width: 100%;
+    padding: 3px;
+    font-size: 16px;
+}
+
+/*remove border when we click the input field box*/
+.showcase-form input:focus, textarea:focus {
+    outline: none;
+}
+
+.msg {
+    resize: vertical;
+}
+
+/*Spam Protection: hide*/
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+.contacts-main .flex {
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+
+
+
+
+/*****************************************************************************************/
+/* Tablets and under */
+/* Anything under 768px  will be styled in ipad/tablet media query*/
+
+@media(max-width: 600px) {
+
+    .contacts-head .container,
+    .contacts-sub-head .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contacts-head img,
+    .contacts-sub-head img {
+        justify-self: center;
+    }
+
+    .showcase-form{
+        flex-wrap: wrap;
+        overflow-y: hidden;
+    }
+
+
+
+
+}
+
+
+/* Mobile and under */
+/* Anything under 500px  will be styled in mobile media query*/
+
+/*max-width: less than or equal to the set width
+if the screen is less than or equal to 500px*/
+@media(max-width: 500px) {
+
+    .contacts-head .container,
+    .contacts-sub-head .container {
+        text-align: center;
+    }
+
+    .lead {
+        font-size: 18px;
+    }
+
+}
