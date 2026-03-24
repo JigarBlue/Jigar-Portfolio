@@ -28,81 +28,37 @@
     </div>
 
     <!-- Head -->
-    <div class="projects-head bg-primary py-3">
+    <div class="cv-head bg-primary py-3">
         <div class="container grid">
             <div>
-                <h1 class="xl">Projects</h1>
+                <h1 class="xl">CV</h1>
                 <p class="lead">
-                    Check out the collection of front-end and other programming projects
-                    from university and self-learning.
+                    Shows my skills, work experience and project work.
                 </p>
             </div>
             <!-- <i class="fa-solid fa-book fa-8x"></i> -->
-            <img src="images/books-proj.svg" alt="">
+                <img src="images/cv.png" alt="CV-Jigar-Patel">
         </div>
     </div>
 
-    <!-- Subhead -->
-    <section class="projects-sub-head bg-light py-3">
-        <div class="container grid">
-            <div>
-                <h1 class="md">Front-end Websites</h1>
-                <p>
-                    Explore my front-end websites built with HTML, CSS, and JavaScript, 
-                    featuring responsive design, smooth interactions, and modern web experiences.
-                </p>
-            </div>
-            <img src="images/resp-proj.png" alt="">
+    <!-- Download CV file -->
+    <section class="cvpdf">
+        <div class="cv md text-center my-2">
+            <a href="docs/CV - Jigar Patel.pdf" download="CV-Jigar-Patel.pdf" class="btn">Download CV</a>
         </div>
     </section>
 
-    <!-- Front-end websites ecards -->
+    <!-- card for pdf file -->
     <section class="fend bg-light">
-        <!-- rdr2 website -->
+        <!-- cv pdf file -->
         <div class="container flex">
-            <div class="card ecard">
-                <img src="images/rdr2.png" alt="">
-                <a href="https://project-rdr-2-website.vercel.app" class="btn btn-outline">Explore</a>
-            </div>
-
-        <!-- loruki website -->
-            <div class="card ecard">
-                <img src="images/loruki.png" alt="">
-                <a href="https://loruki-website-pearl.vercel.app" class="btn btn-outline">Explore</a>
+            <div class="card cvcard">
+                <iframe src="docs/CV - Jigar Patel.pdf" frameborder="0" width="600px" height="500px"  allowfullscreen></iframe>
             </div>
         </div>
     </section>
 
-    <!-- Other Projects -->
-    <section class="otherproj">
-        <h2 class="md text-center my-2">
-            Other projects
-        </h2>
-        <div class="container flex">
-            <div class="card">
-                <h4>Social Networking Web App</h4>
-                <p>PHP | SQL | MySQL | HTML5 | CSS3 | JavaScript | Bootstrap</p>
-                <!-- <img src="images/" alt=""> -->
-                <i class="fa-regular fa-message fa-2x"></i>
-            </div>
-            <div class="card">
-                <h4>Augmented Reality App</h4>
-                <p>C# | Unity | Vuforia SDK</p>
-                <!-- <img src="images/" alt=""> -->
-                <i class="fa-solid fa-mobile-button fa-2x"></i>
-            </div>
-            <div class="card">
-                <h4>Coming Soon..</h4>
-                <p>coming soon..</p>
-                <img src="images/" alt="">
-            </div>
-            <div class="card">
-                <h4>Coming Soon..</h4>
-                <p>coming soon..</p>
-                <img src="images/" alt="">
-            </div>
-        </div>
-    </section>
+
 
 
      <!-- Footer -->
@@ -128,4 +84,5 @@
         </div>
     </footer>
 </body>
+<script defer src="js/cv-download.js"></script>
 </html>

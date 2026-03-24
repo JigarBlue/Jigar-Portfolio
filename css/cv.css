@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
+
+:root {
+    /* custom properties */
+    --primary-color: #047aed;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+.cv-head img {
+    width: 150px;
+    justify-self: flex-end;
+}
+
+.cvcard {
+    display: flex;
+    max-width: 600px;
+    position: relative;
+    padding: 0px;
+}
+
+.cvcard img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 768px) {
+    .cv-head .container, .cv-sub-head .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .cv-head img, .cv-sub-head img {
+        justify-self: center;
+    }
+
+    .cvcard {
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cv-head .container, .cv-sub-head .container {
+        text-align: center;
+    }
+
+    .cvcard {
+        max-width: 320px;
+    }
+}
+

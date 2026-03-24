@@ -1,4 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap');
 
+:root {
+    /* custom properties */
+    --primary-color: #047aed;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Zen Maru Gothic", sans-serif;
+    color: #333;
+    line-height: 1.6;
+    
+}
 
 .contacts-head img {
     width: 150px;
@@ -97,6 +119,18 @@
     font-size: 22px;
     text-align: center;
 }
+
+
+/**/
+.cvpdf .my-2 {
+    margin: 1rem 0px;
+}
+
+.cvpdf .md {
+    font-size: 1rem;
+}
+
+
 
 
 
