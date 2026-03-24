@@ -360,14 +360,13 @@ img {
 if the screen is less than or equal to 500px*/
 @media(max-width: 500px) {
 
-    /*Logo & Links*/
-
-    /* .logo {
-        font-size: 30px;
-    }
-
     .navbar .flex {
         flex-direction: column;
+    }
+
+    .navbar ul {
+        background-color: rgba(0, 0, 0, 0.1);
+        height: 50px;
     }
 
     .navbar {
@@ -375,9 +374,58 @@ if the screen is less than or equal to 500px*/
     }
 
     .navbar a {
-        font-size: 23px;
+        font-size: 22px;
         border-bottom: 1.5px dotted #fff;
     }
+
+    .showcase-image {
+        height: 300px;
+        width: 336px;
+    }
+
+    .showcase p {
+        margin: 20px 12px;
+    }
+
+    .fa-6x {
+        font-size: 5em;
+    }
+
+    .corelang .grid h3 {
+        font-size: 18px;
+    }
+
+    .proj .grid {
+        grid-template-columns: 112%;
+    }
+
+    .projpc {
+        width: 320px;
+    }
+
+    .olang .container {
+        padding: 0 30px;
+    }
+
+    .footer .grid {
+        gap: 40px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+        
+   
+
+    /*Logo & Links*/
+
+    /* 
+
+  
+
+
 
     .navbar ul {
         background-color: rgba(0, 0, 0, 0.1);
