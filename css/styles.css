@@ -111,6 +111,7 @@ img {
 .showcase .grid {
     overflow: visible;
     grid-template-columns: 55% 45%;
+    /* grid-template-columns: 1fr 1fr; */
     gap: 30px;
 }
 
@@ -272,81 +273,84 @@ img {
 /* Tablets and under */
 
 
-    /* Tablets and under */
-    /* Anything under 768px  will be styled in ipad/tablet media query*/
+    /* iPad Pro and under */
 
-@media(max-width: 768px) {
-        
-    /*Logo & top Links*/
-
-    .logo {
-        font-size: 30px;
-    }
-
-    .navbar {
-        height: 80px;
-    }
-
-    .navbar a {
-        padding: 6px;
-        margin: 0 4px; 
-        font-size: 18px;
-    }
-
-    .navbar ul {
-        padding: 10px;
-    }
-
-    /* Showcase */
-
-    .showcase {
-        height: auto;
-    }
-
-    .grid, 
-    .showcase .grid,
-    .proj .grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-    }
+@media(max-width: 1000px) {
 
     .showcase-image {
-        justify-self: center;
-        animation: slideInFromBottom 1s ease-in;
+        top: 35px;
+        right: 20px;
+        height: 326px;
+        width: 355px;
+    }
+
+    .aboutMe {
+        font-size: 15px;
+    }
+
+    .showcase-text .btn {
+        padding: 6px 18px;
+    }
+}
+
+ /* Anything under 768px  will be styled in ipad/tablet media query*/
+@media(max-width: 768px) {
+
+    .aboutMe {
+        font-size: 15px;
+    }
+
+    .showcase {
+        /* height: 743px; */
+        height: auto;
     }
 
     .showcase h1 {
         font-size: 35px;
     }
 
+    .grid,
+    .showcase .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
     .showcase-text {
         text-align: center;
         margin-top: 40px;
-        animation: slideInFromTop 1s ease-in;
+        animation: slideInFromTop 1s ease-in; /*the top bit (easier deployment) will slide from top*/
     }
 
-    .proj .lg {
+    .showcase-image {
+        justify-self: center;
+        margin: auto;
+        height: 350px;
+        width: 400px;
+        right: 0;
+        animation: slideInFromBottom 1s ease-in;
+    }
+
+    .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .proj .grid {
+        grid-template-columns: 1fr;
+    }
+
+    h2.lg {
         font-size: 2rem;
     }
 
-
-    /*Footer*/
-
-    footer h1 {
-        font-size: 20px;
+    .text-center .lead {
+        font-size: 16px;
+        margin: 1rem 1px;
     }
 
-    .social
-    {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
+    .projpc {
+        margin: auto;
+        width: 500px;
     }
-
-
-
-
-
 }
 
 /* Mobile and under */
@@ -358,7 +362,7 @@ if the screen is less than or equal to 500px*/
 
     /*Logo & Links*/
 
-    .logo {
+    /* .logo {
         font-size: 30px;
     }
 
@@ -377,16 +381,20 @@ if the screen is less than or equal to 500px*/
 
     .navbar ul {
         background-color: rgba(0, 0, 0, 0.1);
-    }
+    } */
 
     /*Showcase*/
 
+    /* .showcase-text {
+        text-align: center;
+    } */
+
     /*Footer*/
 
-    .social
+    /* .social
     {
         gap: 10px;
-    }
+    } */
 
 }
 

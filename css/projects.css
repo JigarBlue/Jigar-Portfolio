@@ -94,7 +94,15 @@
     
 /* Anything under 768px  will be styled in ipad/tablet media query*/
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
+
+    .showcase {
+        height: auto;
+    }
+
+    /* .proj .grid {
+        grid-template-columns: 1fr;
+    } */
 
     .projects-head .container,
     .projects-sub-head .container {

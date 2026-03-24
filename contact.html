@@ -42,11 +42,11 @@
     <!-- Contact Form -->
     <section class="contacts-main my-4">
         <div class="container flex">
-            <div class="showcase-form card">
+            <div class="showcase-form card" id="formDiv">
                 <h2>Contact Form</h2>
                 <!--form post to Netlify & Spam protection using netlify honey pot: BOT-->
                 <div class="error"></div>
-                <form action="https://api.web3forms.com/submit" name="contact" method="POST">
+                <form id="contactForm" action="https://api.web3forms.com/submit" name="contact" method="POST">
                     <!--Hidden input or field-->
                     <!--<input type="hidden" name="access_key" value="2c6d1e72-1af2-4d55-9d9c-9933ecf7a825"> -->
                     <input type="hidden" name="access_key" value="c94b586f-e0b4-4f9d-8fdd-6672dc62705e">
@@ -64,7 +64,7 @@
                         <input type="text" name="company" placeholder="Company Name">
                     </div>
                     <div class="form-control">
-                        <input type="text" name="email" placeholder="Email" required>
+                        <input type="text" name="email" placeholder="Email" size="42" required>
                     </div>
                     <div class="form-control">
                         <textarea class="msg" type="text" name="message" placeholder="Message"></textarea>
@@ -73,6 +73,7 @@
                 </form>
             </div>
         </div>
+        <h1 id="hiddenMsg">Thank You.</h1>
     </section>
   
      <!-- Footer -->

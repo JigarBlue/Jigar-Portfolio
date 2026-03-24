@@ -38,11 +38,11 @@
     margin: 20px 0;
 }
 
-.showcase .grid {
-    overflow: visible; /*removes the scroller bar from grid*/
-    grid-template-columns: 55% 45%; /*55% for text part and 45% for form part*/
+/* .showcase .grid {
+    overflow: visible; 
+    grid-template-columns: 55% 45%; 
     gap: 30px;
-}
+} */
 
 .showcase-form{
     /*if you want to do left, top, right, bottom,
@@ -92,6 +92,12 @@
     overflow-y: hidden;
 }
 
+#hiddenMsg {
+    display: none;
+    font-size: 22px;
+    text-align: center;
+}
+
 
 
 
@@ -99,7 +105,16 @@
 /* Tablets and under */
 /* Anything under 768px  will be styled in ipad/tablet media query*/
 
-@media(max-width: 600px) {
+@media(max-width: 768px) {
+
+    .showcase {
+        height: auto;
+    }
+
+    /* .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    } */
 
     .contacts-head .container,
     .contacts-sub-head .container{
