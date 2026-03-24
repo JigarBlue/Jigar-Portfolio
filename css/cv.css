@@ -45,7 +45,9 @@ body {
 }
 
 @media (max-width: 768px) {
+
     .cv-head .container, .cv-sub-head .container {
+        text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -59,9 +61,6 @@ body {
 }
 
 @media (max-width: 500px) {
-    .cv-head .container, .cv-sub-head .container {
-        text-align: center;
-    }
 
     .cvcard {
         max-width: 320px;
