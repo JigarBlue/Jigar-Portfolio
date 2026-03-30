@@ -58,31 +58,44 @@
                 <form id="contactForm" action="https://api.web3forms.com/submit" name="contact" method="POST">
                     <!--Hidden input or field-->
                     <!--<input type="hidden" name="access_key" value="2c6d1e72-1af2-4d55-9d9c-9933ecf7a825"> -->
-                    <input type="hidden" name="access_key" value="c94b586f-e0b4-4f9d-8fdd-6672dc62705e">
+                   <!--- <input type="hidden" name="access_key" value="c94b586f-e0b4-4f9d-8fdd-6672dc62705e"> -->
+                  <!--- <input type="hidden" name="access_key" value="c94b586f-e0b4-4f9d-8fdd-6672dc62705e"> -->
+                  <input type="hidden" name="access_key" value="836f30d8-ad4a-4951-9e87-df441e93a72e"> 
                     <!--Spam Protection using honey pot method, where we create an input,
                     that we can hide and you dont fill it out if youre human, 
                     a bot will fill it out.
                     This hiden class will show up, we need to hide it using css-->
-                    <p class="hidden">
+                    <p class="spamhide">
                         <label>Don't fill this out if you're human: <input name="bot-field"></label>
                     </p>
                     <div class="form-control">
-                        <input type="text" name="name" placeholder="Name" required>
+                        <input class="" type="text" name="name" placeholder="Name" minlength="2">
+                        <div class="error-hide hiding">Name is required.</div> <!--new-->
                     </div>
                     <div class="form-control">
                         <input type="text" name="company" placeholder="Company Name">
                     </div>
                     <div class="form-control">
-                        <input type="text" name="email" placeholder="Email" size="42" required>
+                        <input type="email" name="email" placeholder="Email" size="42">
+                        <div class="error-hide hiding">Email is invalid.</div> <!--new-->
                     </div>
                     <div class="form-control">
-                        <textarea class="msg" type="text" name="message" placeholder="Message" required></textarea>
+                        <input type="text" name="phone" placeholder="Phone Number">
+                        <div class="error-hide hiding">Phone number is invalid.</div> <!--new-->
+                    </div>
+                    <div class="form-control">
+                        <textarea class="msg" type="text" name="message" placeholder="Message"></textarea>
+                        <div class="error-hide hiding">Message is required.</div> <!--new-->
                     </div>
                     <input type="submit" value="Send" class="btn btn-primary">
                 </form>
+                <!--<div class="thank-you" >thank you.</div> --> <!-- new-->
             </div>
+            <div class="thank-you" hidden>Thanks! Sending your message...</div> <!-- new-->
+            <div class="error-message hiding"></div>
         </div>
-        <h1 id="hiddenMsg">Thank You.</h1>
+       <!--- <div class="thank-you" hidden>Thank you.</div> --> <!-- new-->
+       <!--- <h1 id="hiddenMsg">Thank You.</h1> -->
     </section>
   
      <!-- Footer -->
@@ -108,5 +121,8 @@
         </div>
     </footer>
 </body>
-<script defer src="js/script.js"></script>
+<!--<script defer src="js/script.js"></script> -->
+<!--<script src="js/contact.js" defer></script> -->
+<!-- <script src="js/form.js" defer></script> -->
+<script src="js/contact-form.js" defer></script>
 </html>
