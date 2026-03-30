@@ -1,6 +1,7 @@
 //Select main elements
 const form = document.querySelector("form");
 const thankYou = document.querySelector(".thank-you");
+const errorMsg = document.querySelector(".error-message"); //new element for failure
 
 //Select the submit input
 const submitBtn = form.querySelector("input[type='submit']");
@@ -59,7 +60,8 @@ const validateForm = () => {
     return isFormValid;
 };
 
-//Handle form submission
+/** 
+//Handle form submission without try/catch especially for web3forms issue.
 form.addEventListener("submit", (e) => {
     e.preventDefault(); //stop immediate submission
 
@@ -84,6 +86,47 @@ form.addEventListener("submit", (e) => {
         setTimeout(() => {
             form.submit(); //actual submission
         }, 2000);
+    }
+});
+*/
+
+//Handle form submission with try/catch error 
+form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    isValidationOn = true;
+
+    if (!validateForm()) return;
+
+    //Hide previous messages
+    thankYou.style.display = "none";
+    errorMsg.style.display = "none";
+
+    try {
+        //Disable button & show loading
+        submitBtn.disabled = true;
+        submitBtn.classList.add("loading");
+        submitBtn.value = "Sending...";
+        form.style.opacity = "0.5";
+        form.style.pointerEvents = "none";
+
+        //show thank-you immediately
+        thankYou.style.display = "block";
+
+        //Delay actual form submission (simulate network)
+        setTimeout(() => {
+            //Try submiting the form
+            form.submit();
+        }, 2000);
+    } catch (err) {
+        //if something goes wrong (rare, like browser blocking submission)
+        thankYou.style.display = "none";
+        errorMsg.style.display = "block";
+        errorMsg.textContent = "Oops! Something went wrong. Please try again.";
+        submitBtn.disabled = false;
+        submitBtn.classList.remove("loading");
+        submitBtn.value = "Send";
+        form.style.opacity = "1";
+        form.style.pointerEvents = "auto";
     }
 });
 
