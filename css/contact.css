@@ -92,6 +92,7 @@ body {
     width: 100%;
     padding: 3px;
     font-size: 16px;
+    margin-bottom: 4px; /* new for error msg*/
 }
 
 /*remove border when we click the input field box*/
@@ -104,7 +105,7 @@ body {
 }
 
 /*Spam Protection: hide*/
-.hidden {
+.spamhide {
     visibility: hidden;
     height: 0;
 }
@@ -130,7 +131,51 @@ body {
     font-size: 1rem;
 }
 
+/*new/
+/* test the error msg for form input. use class "invalid"*/
+.form-control input.invalid {
+    border-bottom: 1px solid red;
+}
 
+.error-hide {
+    color: red;
+}
+
+/*hide the error message*/
+.hiding {
+    display: none;
+}
+
+.thank-you {
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
+}
+
+/*Spinner using ::after on the submit input when its disabled*/
+.input[type="submit"].loading {
+    position: relative;
+    color: transparent; /*hide text temporarily*/
+    pointer-events: none;
+}
+
+.input[type="submit"].loading::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    margin: -8px 0 0 -8px;
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
 
 
 
