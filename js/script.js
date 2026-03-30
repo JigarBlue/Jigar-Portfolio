@@ -14,7 +14,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
         Change the display style of Thank You message header to 'block'
         to make it visisble and hide the form.
     */
-    document.getElementById("hiddenMsg").style.display = "block";
+    document.getElementsByClassName("hiddenMsg").style.display = "block";
     document.getElementById("formDiv").style.display = "none";
 
     /*Simulate a delay before actual submission
