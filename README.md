@@ -30,12 +30,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-## GitHub Stats & Skills
-
-![Jigar's GitHub stats](https://github-readme-stats.vercel.app/api?username=JigarBlue&show_icons=true&theme=radical)
-![Top Language](https://github-readme-stats.vercel.app/api/top-langs/?username=JigarBlue&layout=compact&theme=radical)
-
-### 💻 Detailed Skills
+### 📋 Skills Summary
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **Design & Styling:** Flexbox, CSS Grid, Animations, Responsive Design
