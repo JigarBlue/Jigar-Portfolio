@@ -2,7 +2,7 @@
 
 Hi, I'm Jigar 👋
 
-![Hero Image](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
+![Coding Cat](https://media.tenor.com/view/cat-coding-gif-22257939.gif)
 
 **Front-End Web Developer | HTML5 | CSS3 | JavaScript**
 
