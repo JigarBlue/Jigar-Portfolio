@@ -1,6 +1,8 @@
 # Portfolio
 
-Hi, I'm Jigar
+Hi, I'm Jigar 👋
+
+![Hero Image](https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif)
 
 **Front-End Web Developer | HTML5 | CSS3 | JavaScript**
 
@@ -8,7 +10,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
 - Passionate about building websites that are **functional and visually appealing**
 - Experienced in **HTML5, CSS3 (Flexbox & Grid), and vanilla JavaScript (ES6+)**
@@ -19,6 +21,22 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ## Tech Stack
 
+![HTML5](https://img.shields.io/badge/HTML5-orange?style=for-the-badge&logo=html5)
+![CSS3](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=css3)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-red?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+![JSON](https://img.shields.io/badge/JSON-black?style=for-the-badge&logo=JSON)
+
+---
+
+## GitHub Stats & Skills
+
+![Jigar's GitHub stats](https://github-readme-stats.vercel.app/api?username=JigarBlue&show_icons=true&theme=radical)
+![Top Language](https://github-readme-stats.vercel.app/api/top-langs/?username=JigarBlue&layout=compact&theme=radical)
+
+### 💻 Detailed Skills
+
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **Design & Styling:** Flexbox, CSS Grid, Animations, Responsive Design
 - **Tools:** Git, GitHub, Chrome DevTools
@@ -26,9 +44,9 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-## Projects
+## 📂 Projects
 
-### 1. Personal Portfolio Website
+### 1️⃣ Personal Portfolio Website
 
 - **Description:** Responsive portfolio site introducing who I am and showcasing my skills.
 - **Hero Sections:** Me | Projects | Contact
@@ -41,7 +59,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-### 2. Red Dead Redemption II Tribute Website
+### 2️⃣ Red Dead Redemption II Tribute Website
 
 - **Description:** Tribute website for the game _Red Dead Redemption II_, created as part of my **front-end web development coursework**.
 - **Motivation:** I love the game and wanted to **honor its gameplay, characters , and story** through a website.
@@ -54,7 +72,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-### 3. Loruki Hosting Landing Page (Learning Project)
+### 3️⃣ Loruki Hosting Landing Page (Learning Project)
 
 - **Description:** Exact replication of the **Loruki website** built following a video tutorial as a learning exercise.
 - **Portfolio Conncetion:** The knowledge and layout techniques from this tutorial **inspired and helped me create my own personal portfolio**, which I adapted with my own design choices.
@@ -66,7 +84,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-## Contact Me
+## 📬 Contact Me
 
 - [Portfolio](https://jigar-portfolio-seven.vercel.app)
 - [GitHub](https://github.com/JigarBlue)
@@ -74,7 +92,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-## Fun & Learning
+## 🌱 Fun & Learning
 
 - Always experimenting with **small web projects** to improve my skills
 - Interested in **clean UI design** and making websites **accessible for everyone**
@@ -82,4 +100,4 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-> _Note: All projects are built with HTML5, CSS3, and vanilla JavaScript to demonstarte front-end fundamentals._
+> ⚡️ _Note: All projects are built with HTML5, CSS3, and vanilla JavaScript to demonstarte front-end fundamentals._
