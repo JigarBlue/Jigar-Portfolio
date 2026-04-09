@@ -2,8 +2,6 @@
 
 Hi, I'm Jigar 👋
 
-![Coding Cat](https://media.tenor.com/view/cat-coding-gif-22257939.gif)
-
 **Front-End Web Developer | HTML5 | CSS3 | JavaScript**
 
 I create **resposnive, interactive, and user-friendly website** using modern web standards. My focus is on **clean design, accessibility, and smooth user experiences**.
