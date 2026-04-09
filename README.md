@@ -79,9 +79,10 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ## 📬 Contact Me
 
-- [Portfolio](https://jigar-portfolio-seven.vercel.app)
-- [GitHub](https://github.com/JigarBlue)
-- Email : [jigard6@outlook.com](mailto:jigard6@outlook.com)
+- 🌐 [Portfolio](https://jigar-portfolio-seven.vercel.app)
+- 💻 [GitHub](https://github.com/JigarBlue)
+- 📄 CV: Available on my portfolio website (preview & download)
+- 📧 Email : [jigard6@outlook.com](mailto:jigard6@outlook.com)
 
 ---
 
