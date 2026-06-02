@@ -55,7 +55,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 ### 2️⃣ Red Dead Redemption II Tribute Website
 
 - **Description:** Tribute website for the game _Red Dead Redemption II_, created as part of my **front-end web development coursework**.
-- **Motivation:** I love the game and wanted to **honor its gameplay, characters , and story** through a website.
+- **Motivation:** I love the game and wanted to **honor its gameplay, characters and story** through a website.
 - **Key Features:**
   - Resposnive navigation with hamburger menu
   - Reviews page allowing users to submit comments stored dynamically with **JSON and DOM**
@@ -74,6 +74,30 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 - Learned how to structure sections, navigation, and visual elements
 - **Tech:** HTML5, CSS3, JavaScript
 - [Live Demo](https://loruki-website-pearl.vercel.app) | [GitHub Repo](https://github.com/JigarBlue/loruki-website)
+
+---
+
+### 4️⃣ Weather App (In Progress)
+
+- **Description:** Responsive weather application that provides real-time, location-based weather information through live API integartion and dynamic user interaction.
+
+- **Core Functionality:**
+  - Weather search by city name or address
+  - Automatic location-based weather using browser geolocation
+  - Real-time rendering with dynamic UI updates
+
+- **System Design:**
+  - Integrates Open-Meteo for weather forecasting data
+  - Uses OpenStreetMap (Nominatim) for geocoding location queries
+  - Handles asynchronous data flow between multiple APIs
+
+- **Tech Stack:** HTML5, CSS3, Vanilla JavaScript
+
+- **Key Skills Applied:** API integration, asynchronous JavaScript (Fetch API, async/await), DOM manipulation, geolocation, resposnive UI development, Git/GitHub workflow
+
+- **GitHub Repo:** https://github.com/JigarBlue/Weather-API-App
+
+- _(Live Demo: In Progress)_
 
 ---
 
