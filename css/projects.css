@@ -61,6 +61,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #000000;
+    text-align: center;
 }
 
 .ecard .btn:hover {
