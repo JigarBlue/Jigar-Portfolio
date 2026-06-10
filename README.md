@@ -77,7 +77,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-### 4️⃣ Weather App (In Progress)
+### 4️⃣ Weather API App
 
 - **Description:** Responsive weather application that provides real-time, location-based weather information through live API integartion and dynamic user interaction.
 
@@ -95,9 +95,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 - **Key Skills Applied:** API integration, asynchronous JavaScript (Fetch API, async/await), DOM manipulation, geolocation, resposnive UI development, Git/GitHub workflow
 
-- **GitHub Repo:** https://github.com/JigarBlue/Weather-API-App
-
-- _(Live Demo: In Progress)_
+- [Live Demo](https://weather-api-app-psi.vercel.app) | [GitHub Repo](https://github.com/JigarBlue/Weather-API-App)
 
 ---
 
