@@ -4,7 +4,7 @@ Hi, I'm Jigar 👋
 
 **Front-End Web Developer | HTML5 | CSS3 | JavaScript**
 
-I create **resposnive, interactive, and user-friendly website** using modern web standards. My focus is on **clean design, accessibility, and smooth user experiences**.
+I created **responsive, interactive, and user-friendly website** using modern web standards. My focus is on **clean design, accessibility, and smooth user experiences**.
 
 ---
 
@@ -55,11 +55,11 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 ### 2️⃣ Red Dead Redemption II Tribute Website
 
 - **Description:** Tribute website for the game _Red Dead Redemption II_, created as part of my **front-end web development coursework**.
-- **Motivation:** I love the game and wanted to **honor its gameplay, characters and story** through a website.
+- **Motivation:** I love the game and wanted to **honour its gameplay, characters and story** through a website.
 - **Key Features:**
-  - Resposnive navigation with hamburger menu
+  - Responsive navigation with hamburger menu
   - Reviews page allowing users to submit comments stored dynamically with **JSON and DOM**
-  - Sections: Home, Game Overview, Reviews, and Characters with intearctive elements
+  - Sections: Home, Game Overview, Reviews, and Characters with interactive elements
 - **Tech:** HTML5, CSS3, JavaScript
 - [Live Demo](https://project-rdr-2-website.vercel.app) | [GitHub Repo](https://github.com/JigarBlue/Project-RDR2-Website)
 
@@ -68,9 +68,9 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 ### 3️⃣ Loruki Hosting Landing Page (Learning Project)
 
 - **Description:** Exact replication of the **Loruki website** built following a video tutorial as a learning exercise.
-- **Portfolio Conncetion:** The knowledge and layout techniques from this tutorial **inspired and helped me create my own personal portfolio**, which I adapted with my own design choices.
+- **Portfolio Connection:** The knowledge and layout techniques from this tutorial **inspired and helped me create my own personal portfolio**, which I adapted with my own design choices.
 - **Key Features:**
-- Practiced full page layout, resposnive design, and styling
+- Practiced full page layout, responsive design, and styling
 - Learned how to structure sections, navigation, and visual elements
 - **Tech:** HTML5, CSS3, JavaScript
 - [Live Demo](https://loruki-website-pearl.vercel.app) | [GitHub Repo](https://github.com/JigarBlue/loruki-website)
@@ -79,7 +79,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ### 4️⃣ Weather API App
 
-- **Description:** Responsive weather application that provides real-time, location-based weather information through live API integartion and dynamic user interaction.
+- **Description:** Responsive weather application that provides real-time, location-based weather information through live API integration and dynamic user interaction.
 
 - **Core Functionality:**
   - Weather search by city name or address
@@ -93,7 +93,7 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 - **Tech Stack:** HTML5, CSS3, Vanilla JavaScript
 
-- **Key Skills Applied:** API integration, asynchronous JavaScript (Fetch API, async/await), DOM manipulation, geolocation, resposnive UI development, Git/GitHub workflow
+- **Key Skills Applied:** API integration, asynchronous JavaScript (Fetch API, async/await), DOM manipulation, geolocation, responsive UI development, Git/GitHub workflow
 
 - [Live Demo](https://weather-api-app-psi.vercel.app) | [GitHub Repo](https://github.com/JigarBlue/Weather-API-App)
 
@@ -116,4 +116,4 @@ I create **resposnive, interactive, and user-friendly website** using modern web
 
 ---
 
-> ⚡️ _Note: All projects are built with HTML5, CSS3, and vanilla JavaScript to demonstarte front-end fundamentals._
+> ⚡️ _Note: All projects are built with HTML5, CSS3, and vanilla JavaScript to demonstrate front-end fundamentals._
